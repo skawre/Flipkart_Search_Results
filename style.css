@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header img{
+    margin-top: 10px;
+    
+}
+
+.header{
+    background-color: #2874f0;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.searchinput{
+    background-color: white;
+    padding: 7px;
+    width: 400px;
+    margin: 0px 10px;
+    border-radius: 2px;
+
+}
+.searchinput input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 15x;
+}
+.becomeaseller a{
+    padding: 0px 25px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+}
+.cart a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.listitem{
+    padding: 35px;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+.listitem img{
+    margin-right: 10px;
+}
+
+.phonename{
+    flex-grow: 0;
+    padding: 10px 25px;
+    font-family: Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 550;
+    
+}
+.phonespecifications{
+    padding: 20px 40px;
+}
+.specs{
+    color: #212121;
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 14px;
+    
+    
+   
+}
+.review{
+    color: white;
+    line-height: normal;
+    margin: 10px 0px;
+    background-color: green;
+    display:
+    
+}
+.ratingcount{
+    color: #878787;
+    font-weight: 500;
+    background-color: white;
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+
+}
+.phoneprice{
+    padding: 10px 300px ;
+    font-weight: bolder;    
+    font-family: Roboto,Arial,sans-serif;
