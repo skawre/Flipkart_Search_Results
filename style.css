@@ -1,101 +1,160 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.base {
+  background-color: #2874f0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 12px;
+  padding-right: 12px;
+  
+  
+  
+}
 
-}
-.header img{
-    margin-top: 10px;
-    
+.header {
+  align-items: center;
+  height: 56px;
+  justify-content: space-around;
+ 
 }
 
-.header{
-    background-color: #2874f0;
-    height: 56px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+.logo {
+    margin-left: 12px;
 }
-.searchinput{
-    background-color: white;
-    padding: 7px;
-    width: 400px;
-    margin: 0px 10px;
-    border-radius: 2px;
-
-}
-.searchinput input{
-    width: 380px;
+.search-input {
+    height: 36px;
     border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    width: 300px;
+    padding-left: 10px;
     outline: none;
-    font-size: 15x;
-}
-.becomeaseller a{
-    padding: 0px 25px;
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    font-family: Roboto,Arial,sans-serif;
-    font-size: 16px;
-}
-.cart a{
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-    font-family: Roboto,Arial,sans-serif;
-    font-size: 16px;
 }
 
-.listitem{
-    padding: 35px;
-    display: flex;
-    align-items: flex-start;
+.header p {
+    color: white;
+    font-weight: 700;
+   
+}
+
+.phone-name{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    width: 660px; 
+}
+
+.product{
+    text-decoration: none;
+    color: black;
+
+}
+.product-specs {
+    background-color: rgb(255, 255, 255);
+    height: 268px;
+    justify-content: flex-start; 
+    padding-top: 18px; 
+    padding-left: 40px;
     
+
+}
+.iphone{
+    padding-left: 20px;
+    padding-top: 12px;
+}
+
+.phone-specs{
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.green{
+    line-height: normal;
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 2px 4px 2px 6px;
+    font-size: 14px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.numbers{
+    color: rgb(83, 77, 77);
+    font-weight: 600;
+    font-size: 14px;
+}
+.review{
+    padding: 6px;
+
+}
+.pricing{
+    padding: 10px;
+    width: 472px;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.disc{
+    font-size: 14px;
+}
+
+hr{
+    opacity: 10%;
+}
+
+
+.site-footer {
+    background-color: hsla(220, 34%, 15%, 1);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+    
+    flex: 1 1 100px;
+}
+
+.footer-section h3 {
+    color: hsla(0, 0%, 53%, 1);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-link,
+.addresses {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
     
 }
-.listitem img{
+
+.social-link {
+    display: inline-block;
     margin-right: 10px;
 }
 
-.phonename{
-    flex-grow: 0;
-    padding: 10px 25px;
-    font-family: Arial,sans-serif;
-    font-size: 18px;
-    font-weight: 550;
-    
-}
-.phonespecifications{
-    padding: 20px 40px;
-}
-.specs{
-    color: #212121;
-    line-height: 22px;
-    font-weight: 300;
-    font-size: 14px;
-    
-    
-   
-}
-.review{
-    color: white;
-    line-height: normal;
-    margin: 10px 0px;
-    background-color: green;
-    display:
-    
-}
-.ratingcount{
-    color: #878787;
-    font-weight: 500;
-    background-color: white;
-    font-size: 14px;
-    font-family: Roboto,Arial,sans-serif;
 
+.footer-section:nth-child(4) {
+    border-right: 1px solid hsla(224, 13%, 32%, 1); 
+    height: 160px;
+    margin-right: 30px;
 }
-.phoneprice{
-    padding: 10px 300px ;
-    font-weight: bolder;    
-    font-family: Roboto,Arial,sans-serif;
+
+ 
